@@ -24,7 +24,6 @@ public class CreatePhoneNumber {
         //Creat patern for checks
         Pattern pattern = Pattern.compile("([0-9]{10})");
         Matcher matcher = pattern.matcher(str);
-        System.out.println(str);
 
         if (matcher.matches()) {
             // handle the situation when the string matches the pattern
