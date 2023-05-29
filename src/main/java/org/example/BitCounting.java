@@ -17,7 +17,6 @@ public class BitCounting {
         //Creat patern for checks
         Pattern pattern = Pattern.compile("^[0-1]*$");
         Matcher matcher = pattern.matcher(str);
-        System.out.println(str);
         if(matcher.matches()){
             return StringUtils.countMatches(str, "1");
         }
