@@ -38,7 +38,13 @@ public class Main {
 
         System.out.println("==============================");
 
+        //This is a method for checking the correctness of the entered data,
+        //if everything is correct, then it launches the method {@link #calc}
         System.out.println(BouncingBalls.bouncingBall(30.0, 0.66, 1.5));
 
+        System.out.println("==============================");
+
+        DetectPangram detectPangram = new DetectPangram();
+        System.out.println(detectPangram.check("ABCD45EFGH,IJK,LMNOPQR56STUVW3XYZ"));
     }
 }
