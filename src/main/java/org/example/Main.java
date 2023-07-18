@@ -55,5 +55,9 @@ public class Main {
 
         System.out.println(CountingDuplicates.duplicateCount("aabBcde"));
 
+        System.out.println("==============================");
+
+        System.out.println(NumberUtils.isNarcissistic(153));
+
     }
 }
