@@ -46,5 +46,14 @@ public class Main {
 
         DetectPangram detectPangram = new DetectPangram();
         System.out.println(detectPangram.check("ABCD45EFGH,IJK,LMNOPQR56STUVW3XYZ"));
+
+        System.out.println("==============================");
+
+        System.out.println(GoodVsEvil.battle("1248 263 4336 4153 3089 4809", "8658 2474 6326 1904 7936 364 153"));
+
+        System.out.println("==============================");
+
+        System.out.println(CountingDuplicates.duplicateCount("aabBcde"));
+
     }
 }
