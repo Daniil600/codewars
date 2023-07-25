@@ -59,5 +59,9 @@ public class Main {
 
         System.out.println(NumberUtils.isNarcissistic(153));
 
+        System.out.println("==============================");
+
+        System.out.println(Arrays.toString(EnoughIsEnough.deleteNth(new int[]{1, 2, 4, 5, 6, 6, 6, 1, 1, 1, 2}, 2)));
+
     }
 }
